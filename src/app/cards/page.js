@@ -28,10 +28,10 @@ function BasicCard() {
          <Card className="flex flex-col ml-10 w-1/3 h-1/10">
             
               <CardContent>
-                <Typography variant="h5" component="div" className="text-bold text-blue-500">
+                <Typography variant="h5" component="div" className="text-bold text-blue-500 text-sm">
                   ISSUES
                 </Typography>
-                <Typography variant="h5" component="div"className="text-bold text-blue-500">
+                <Typography variant="h5" component="div"className="text-bold text-blue-500 text-sm">
                   29
                 </Typography>
               </CardContent>
@@ -41,13 +41,13 @@ function BasicCard() {
               <hr/>
             
           
-            <Typography variant="h5" component="div">
+            <Typography variant="h5" component="div" className="text-sm">
               {bull}COMPLETED 10
             </Typography>
-            <Typography variant="h5" component="div">
+            <Typography variant="h5" component="div" className="text-sm">
               {bull} PENDING 10
             </Typography>
-            <Typography variant="h5" component="div">
+            <Typography variant="h5" component="div" className="text-sm">
               {bull} SCHEDULED
             </Typography>
             <CardActions>
@@ -60,10 +60,10 @@ function BasicCard() {
 
         <Card className="ml-10 w-1/3 h-1/10 align-middle">
           <CardContent>
-            <Typography variant="h5" component="div"className="text-bold text-blue-500">
+            <Typography variant="h5" component="div"className="text-bold text-blue-500 text-sm">
               TASKS
             </Typography>
-            <Typography variant="h5" component="div"className="text-bold text-blue-500">
+            <Typography variant="h5" component="div"className="text-bold text-blue-500 text-sm">
               9
             </Typography>
           </CardContent>
@@ -73,10 +73,10 @@ function BasicCard() {
         </Card>
         <Card className="ml-10 w-1/3 h-1/10 align-middle">
           <CardContent>
-            <Typography variant="h5" component="div"className="text-bold text-blue-500">
+            <Typography variant="h5" component="div"className="text-bold text-blue-500 text-sm">
               STOCK
             </Typography>
-            <Typography variant="h5" component="div"className="text-bold text-blue-500">
+            <Typography variant="h5" component="div"className="text-bold text-blue-500 text-sm">
               299
             </Typography>
           </CardContent>
@@ -86,10 +86,10 @@ function BasicCard() {
         </Card>
         <Card className="ml-10 w-1/3 h-1/10 align-middle">
           <CardContent>
-            <Typography variant="h5" component="div"className="text-bold text-blue-500">
+            <Typography variant="h5" component="div"className="text-bold text-blue-500 text-sm">
               USERS
             </Typography>
-            <Typography variant="h5" component="div"className="text-bold text-blue-500">
+            <Typography variant="h5" component="div"className="text-bold text-blue-500 text-sm">
               3
             </Typography>
           </CardContent>
@@ -104,10 +104,10 @@ function BasicCard() {
        <Card className="flex flex-col ml-10 w-1/3 h-1/10">
           
             <CardContent>
-              <Typography variant="h5" component="div" className="text-bold text-blue-500">
+              <Typography variant="h5" component="div" className="text-bold text-blue-500 text-sm">
                 SIM
               </Typography>
-              <Typography variant="h5" component="div"className="text-bold text-blue-500">
+              <Typography variant="h5" component="div"className="text-bold text-blue-500 text-sm">
                 29
               </Typography>
             </CardContent>
@@ -117,13 +117,13 @@ function BasicCard() {
             <hr/>
           
         
-          <Typography variant="h5" component="div">
+          <Typography variant="h5" component="div" className="text-sm">
             {bull}ECONET 2
           </Typography>
-          <Typography variant="h5" component="div">
+          <Typography variant="h5" component="div" className="text-sm">
             {bull}NETONE 3
           </Typography>
-          <Typography variant="h5" component="div">
+          <Typography variant="h5" component="div" className="text-sm">
             {bull} GLOBAL 4
           </Typography>
           <CardActions>
@@ -137,10 +137,10 @@ function BasicCard() {
         <Card className="flex flex-col ml-10 w-1/3 h-1/10">
           
           <CardContent>
-            <Typography variant="h5" component="div" className="text-bold text-blue-500">
+            <Typography variant="h5" component="div" className="text-bold text-blue-500 text-sm">
               BASIC TRACKERS
             </Typography>
-            <Typography variant="h5" component="div"className="text-bold text-blue-500">
+            <Typography variant="h5" component="div"className="text-bold text-blue-500 text-sm">
               50
             </Typography>
           </CardContent>
@@ -150,13 +150,13 @@ function BasicCard() {
           <hr/>
         
       
-        <Typography variant="h5" component="div">
+        <Typography variant="h5" component="div" className="text-sm">
           {bull}FMB 920
         </Typography>
-        <Typography variant="h5" component="div">
+        <Typography variant="h5" component="div" className="text-sm">
           {bull}FMB 965
         </Typography>
-        <Typography variant="h5" component="div">
+        <Typography variant="h5" component="div" className="text-sm">
           {bull} FMB125
         </Typography>
         <CardActions>
@@ -167,10 +167,10 @@ function BasicCard() {
       <Card className="flex flex-col ml-10 w-1/3 h-1/10">
           
           <CardContent>
-            <Typography variant="h5" component="div" className="text-bold text-blue-500">
+            <Typography variant="h5" component="div" className="text-bold text-blue-500 text-sm">
               SPEED LIMITERS
             </Typography>
-            <Typography variant="h5" component="div"className="text-bold text-blue-500">
+            <Typography variant="h5" component="div"className="text-bold text-blue-500 text-sm">
               20
             </Typography>
           </CardContent>
@@ -180,10 +180,10 @@ function BasicCard() {
           <hr/>
         
       
-        <Typography variant="h5" component="div">
+        <Typography variant="h5" component="div" className="text-sm">
           {bull}GOSAFE 2
         </Typography>
-        <Typography variant="h5" component="div">
+        <Typography variant="h5" component="div" className="text-sm">
           {bull}FMB 920 3
         </Typography>
         
@@ -194,10 +194,10 @@ function BasicCard() {
       </Card>
       <Card className="ml-10 w-1/3 h-1/10 align-middle">
         <CardContent>
-          <Typography variant="h5" component="div"className="text-bold text-blue-500">
+          <Typography variant="h5" component="div"className="text-bold text-blue-500 text-sm">
             FUEL
           </Typography>
-          <Typography variant="h5" component="div"className="text-bold text-blue-500">
+          <Typography variant="h5" component="div"className="text-bold text-blue-500 text-sm">
             3
           </Typography>
         </CardContent>
