@@ -1,5 +1,6 @@
 'use client'
 import { useMemo, useState } from 'react';
+import importButton from "./import.js"
 import {
   MRT_EditActionButtons,
   MaterialReactTable,
@@ -15,6 +16,7 @@ import {
   IconButton,
   Tooltip,
 } from '@mui/material';
+import FileUploadIcon from '@mui/icons-material/FileUpload';
 import {
   QueryClient,
   QueryClientProvider,
@@ -212,7 +214,13 @@ const Example = () => {
         <DialogContent
           sx={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}
         >
-          {internalEditComponents} {/* or render custom edit components here */}
+          {internalEditComponents} 
+          { <Tooltip title="Import file">
+          <FileUploadIcon>
+         
+            <EditIcon />
+          </FileUploadIcon>
+          </Tooltip>}{/* or render custom edit components here */}
         </DialogContent>
         <DialogActions>
           <MRT_EditActionButtons variant="text" table={table} row={row} />
@@ -231,9 +239,12 @@ const Example = () => {
             <DeleteIcon />
           </IconButton>
         </Tooltip>
+       
+       
       </Box>
     ),
     renderTopToolbarCustomActions: ({ table }) => (
+      
       <Button
         variant="contained"
         className='bg-blue-400'
@@ -249,7 +260,11 @@ const Example = () => {
       >
         Create New User
       </Button>
+      
+      
     ),
+    
+   
     department: {
       isLoading: isLoadingUsers,
       isSaving: isCreatingUser || isUpdatingUser || isDeletingUser,
